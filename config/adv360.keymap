@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
- &trans  &kp F1          &kp F2  &kp F3           &kp F4  &kp F5            &tog 1   &mo 3  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans
- &trans  &trans          &trans  &trans           &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans   &trans  &trans
- &trans  &trans  &macro_dquotes  &trans  &macro_brackets  &trans            &trans  &trans  &trans                  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans   &macro_quotes  &trans      &macro_code  &trans             &none   &none  &trans   &none   &none  &trans    &none   &none  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans          &trans  &trans           &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans   &trans  &trans  &trans  &trans
+ &trans  &kp F1     &kp F2     &kp F3     &kp F4     &kp F5            &tog 1   &mo 3  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans
+ &trans  &trans     &trans     &trans     &trans     &trans            &trans  &trans  &trans  &trans  &trans  &trans   &trans  &trans
+ &trans  &trans  &kp LG(S)     &trans     &trans     &trans            &trans  &trans  &trans                  &trans   &trans  &trans  &trans  &macro_brackets  &macro_dquotes  &trans  &trans  &trans
+ &trans  &trans  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)             &none   &none  &trans   &none   &none  &trans    &none   &none  &trans      &macro_code   &macro_quotes  &trans  &trans  &trans
+ &trans  &trans     &trans     &trans     &trans     &trans            &trans  &trans  &trans  &trans  &trans  &trans   &trans  &trans  &trans           &trans
             >;
         };
 
